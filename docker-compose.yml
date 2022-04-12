@@ -1,0 +1,13 @@
+---
+version: "3"
+services:
+  noip-update-client:
+    image: coppit/no-ip
+    container_name: no-ip-update-client
+    # it will create a .conf file in this directory that you can use to confirm/change your settings
+    volumes:
+      - ./config:/config
+    restart: unless-stopped
+    # Use the env file to set your username, password, domains, and interval
+    env_file:
+      - ./noip.env
