@@ -1,2 +1,9 @@
+# Ignore any potentially sensative files
 noip.env
 noip.conf
+
+# noip will generate a config folder that may have sensative files in it
+[Cc]onfig/
+
+# Allow just the template file to make it easier to start
+![Cc]onfig/noip.conf.template

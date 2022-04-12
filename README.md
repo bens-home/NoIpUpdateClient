@@ -7,7 +7,7 @@ This is a docker-compose setup to use the `coppit/no-ip` docker image that will 
 
 ## Enviornment Setup
 
-We need to tell the no-ip client about our username, password, and what domain we want to update. We can do this with a `noip.env` file. You can copy the `noip.env.template` file to rename it to `noip.env` and fill in your data there.
+We need to tell the no-ip client about our username, password, and what domain we want to update. We can do this with a config file that no-ip2 will read when it starts. Copy or rename the `config/noip.conf.template` file to be just `config/noip.conf`. This is what no-ip2 will read to get your username and password.
 
 ## Start the container
 
