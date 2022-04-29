@@ -1,7 +1,7 @@
 # NoIpUpdateClient
 This is a docker-compose setup to use the `coppit/no-ip` docker image that will automatically update my domains with No-Ip
 
-[coppit/no-ip](https://hub.docker.com/r/coppit/no-ip) has over 5 million downloads so that's why I am just using that instead of writing my own. The [No-ip dynamic update client](https://www.noip.com/download) requires an interactive setup, so we must subsistite that with a config file in the docker container.
+[coppit/no-ip](https://hub.docker.com/r/coppit/no-ip) has over 5 million downloads so that's why I am just using that instead of writing my own. The [No-ip dynamic update client](https://www.noip.com/download) requires an interactive setup, so we must substitute that with a config file in the docker container.
 
 # Get Started
 
